@@ -84,3 +84,86 @@ img.alignright {float: right;margin: 5px 0 20px 20px;}
     .menu ul li a {display: inline-block;width: 100%;}
     .menu ul li > ul li a {padding: 0px 20px;}
 }
+
+
+/* New css */
+.css-1633um2-MuiPaper-root {border-radius: 0px !important;box-shadow: none !important; padding: 0px !important;}
+.about-sec {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 1150px, rgba(255,255,255,0) 100%), url(utility/confetti-background-small.png);
+    padding: 60px 0px; background-repeat: no-repeat; background-position: top center;
+}
+.about-sec h2 {font-size: 3rem;line-height: 1;margin: 0px;}
+.about-sec h3 {line-height: 57px;font-size: 3rem;}
+.about-sec h4 {text-transform: capitalize;font-weight: 700;font-size: 2.25rem;line-height: 2.5rem; margin: 0px;}
+p.ab-text {
+    margin-top: 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+.more-text.subscribe-btn {
+    display: flex;
+    justify-content: center;
+}
+.more-text a.blue-btn {
+    line-height: 1; color: #fff; margin: 0px 10px;    width: 248px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;box-sizing: border-box;
+    font-size: 1.125rem;background-color: rgb(99 102 241);padding: 10px 20px; border-radius: 10px;
+}
+.more-text a.blue-btn svg {font-size: 18px;position: relative;top: 3px;margin-left: 10px;}
+ul.banner-bott-ul {
+    padding: 0px;
+    display: flex; margin: 50px 0px 20px;
+    justify-content: center;
+}
+ul.banner-bott-ul li {
+    list-style: none;padding: 0px 10px;
+    font-weight: 500;
+}
+ul.banner-bott-ul li svg {
+    float: left;
+}
+.three-box .c-box {
+    border: 1px solid #ccc;box-sizing: border-box;
+    border-radius: 5px !important;
+    height: 100%;
+    padding: 1.5rem 2rem !important;
+    text-align: left;
+}
+.three-box .c-box h3 {
+    margin: 0px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+.three-box .c-box h3 svg {background-color: rgb(253 230 138); padding: 0.5rem;border-radius: 9999px}
+.three-box .c-box2{border-color: rgb(99 102 241); border-width: 4px;}
+.three-box .c-box2 h3 svg {background-color: rgb(199 210 254);}
+.three-box .c-box ul {padding: 0px;}
+.three-box .c-box ul li {padding: 0px; list-style: none;font-size: .875rem;
+    line-height: 1.25rem; font-weight: 500;display: inline-block;width: 100%;padding: 3px 0px;}
+    .three-box .c-box ul li svg {color: rgb(34 197 94); float: left;}
+    .three-box .c-box p{font-size: .875rem;
+        line-height: 1.25rem;}
+        .three-pra {
+            display: flex;
+            justify-content: center;
+            text-align: left;
+        }
+        .three-pra p {
+            width: 33%;
+            padding: 0px 30px;
+            box-sizing: border-box;
+            font-size: .875rem;
+            line-height: 1.25rem;
+            display: flex;
+            justify-content: center;
+        }
+        .three-pra p svg {
+            margin-right: 20px;
+        }

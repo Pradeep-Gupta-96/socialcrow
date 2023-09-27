@@ -8,6 +8,7 @@ import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import ElectricBoltTwoToneIcon from '@mui/icons-material/ElectricBoltTwoTone';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import CheckIcon from '@mui/icons-material/Check';
+import banner1 from '../utility/banner1.jpg'
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -19,21 +20,20 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const Intro = () => {
     return (
-        <div className='about-sec gray-bg'>
+        <div className='about-sec'>
             <div className="bound">
                 <Grid className="about" container spacing={2}>
                     <Grid item xs={12} >
                         <Item className='shadow-remove remove-bg about-img'>
                             <div className='text-box'>
-                                <h2>Buy Facebook page likes + followers & more.</h2>
-                                <h2>Fast with no sign up required.</h2>
-                                <p className='ab-text'>Grow your Facebook account. Stand out from your competitors while keeping the focus on your business.</p>
-                                <p className='ab-text'> No passwords, delivered fast and anonymously to your account. Only $0.04 per page likes + follower.</p>
+                                <h2 style={{color: "rgb(79 70 229)"}}>Buy Facebook page likes + followers & more.</h2>
+                                <h3>Fast with no sign up required.</h3>
+                                <p className='ab-text'>Grow your Facebook account. Stand out from your competitors while keeping the focus on your business. <br />No passwords, delivered fast and anonymously to your account. Only $0.04 per page likes + follower.</p>
                                 <div className='more-text subscribe-btn'>
                                     <Link to="/services" className='blue-btn'>Buy Now!<DoubleArrowIcon /></Link>
                                     <Link to="/services" className='blue-btn'>Lern More!<DoubleArrowIcon /></Link>
                                 </div>
-                                <ul>
+                                <ul className='banner-bott-ul'>
                                     <li><CheckIcon />Higher Conversion</li>
                                     <li><CheckIcon />100% Growth Guaranteed</li>
                                     <li><CheckIcon />Rated 4.9/5</li>
@@ -44,8 +44,7 @@ const Intro = () => {
                     <Grid item xs={12} >
                         <Item className='shadow-remove remove-bg about-img'>
                             <div className='text-box'>
-                                <h2>content comming soon..</h2>
-                            
+                                <img src={banner1} alt='Banner' />    
                             </div>
                         </Item>
                     </Grid>
@@ -53,14 +52,14 @@ const Intro = () => {
                     <Grid item xs={12} >
                         <Item className='shadow-remove remove-bg about-img'>
                             <div className='text-box'>
-                                <h2>The #1 Rated Facebook Page Likes + Followers Service</h2>
+                                <h4>The #1 Rated Facebook Page Likes + Followers Service</h4>
                                 <p className='ab-text'><CheckIcon />Social Crow helps you get more Facebook page likes + followers, likes and comments 10x times faster than our competitors.</p>
                             </div>
                         </Item>
                     </Grid>
-
+                    <Grid container spacing={2} className="three-box">
                     <Grid item xs={12} md={4}>
-                        <Item className='shadow-remove remove-bg about-img'>
+                        <Item className='shadow-remove c-box'>
                             <div className='text-box'>
                                 <h3>Social Proof<ElectricBoltTwoToneIcon /></h3>
                                 <p className='ab-text'>Looking to increase your website's conversion rate? Look no further, our services provide amazing social proof to increase trust and confidence in your brand. With our help, you'll see a significant increase in your conversion rate in no time! From our research we have found that acounts with low followers have follow back rate of less than 5%.</p>
@@ -73,9 +72,8 @@ const Intro = () => {
                             </div>
                         </Item>
                     </Grid>
-
                     <Grid item xs={12} md={4}>
-                        <Item className='shadow-remove remove-bg about-img'>
+                        <Item className='shadow-remove c-box c-box2'>
                             <div className='text-box'>
                                 <h3>Rapid Growth<RocketLaunchIcon /></h3>
                                 <p className='ab-text'>If you're looking to grow your business rapidly, you need to focus on building up your social media following. Having a large social media following will give you the ability to reach more people, which will in turn lead to more customers and more growth for your business.</p>
@@ -88,9 +86,8 @@ const Intro = () => {
                             </div>
                         </Item>
                     </Grid>
-
                     <Grid item xs={12} md={4}>
-                        <Item className='shadow-remove remove-bg about-img'>
+                        <Item className='shadow-remove c-box'>
                             <div className='text-box'>
                                 <h3>Client Satisfaction<ThumbUpIcon /></h3>
                                 <p className='ab-text'>At our company, we pride ourselves on providing excellent customer satisfaction. We always work hard to ensure that our clients are happy with our products and services. We go above and beyond to make sure that they are satisfied with their purchase. We have a team of dedicated customer service representatives on stand-by ready to solve all your needs.</p>
@@ -103,15 +100,16 @@ const Intro = () => {
                             </div>
                         </Item>
                     </Grid>
-
+                    </Grid>
                     <Grid item xs={12} >
-                        <Item className='shadow-remove remove-bg about-img'>
+                        <Item style={{padding:"50px 0px !important"}} className='shadow-remove remove-bg about-img pt-50'>
                             <div className='text-box'>
-                                <h3>Time to get serious.</h3>
-                                <h3>See what Social Crow can do for you:</h3>
-                                <p className='ab-text'><CheckIcon />Join our 60,000+ successful clients</p>
-                                <p className='ab-text'><CheckIcon />Up to 15x more effective than Google/Facebook ads</p>
-                                <p className='ab-text'><CheckIcon />Recommended by the best experts in the space</p>
+                                <h4>Time to get serious.<br />See what Social Crow can do for you:</h4>
+                                <div className="three-pra">
+                                    <p className='ab-text'><CheckIcon />Join our 60,000+ successful clients</p>
+                                    <p className='ab-text'><CheckIcon />Up to 15x more effective than Google/Facebook ads</p>
+                                    <p className='ab-text'><CheckIcon />Recommended by the best experts in the space</p>
+                                </div>
                                 <div className='more-text subscribe-btn'><Link to="#" className='blue-btn'>Let's Go! <DoubleArrowIcon /></Link></div>
                             </div>
                         </Item>
