@@ -7,6 +7,7 @@ import Content from './Components/Content';
 import HomePage from './HomePage/HomePage';
 import Services from './Components/Services';
 import Carts from './Components/Carts';
+import Twitter from './Components/Services/Twitter';
 
 const myAllroute = [
   { path: "/", element: <HomePage /> },
@@ -14,6 +15,7 @@ const myAllroute = [
   { path: "/content", element: <Content /> },
   { path: "/services", element: <Services /> },
   { path: "/carts", element: <Carts /> },
+  { path: "/twitter", element: <Twitter /> },
 ]
 
 function App() {

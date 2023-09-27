@@ -20,18 +20,18 @@ const Item = styled(Paper)(({ theme }) => ({
 const Services = () => {
 
     const ArrayData = [
-        { "icons": <TwitterIcon/>, "text": "Twitter" },
-        { "icons": <InstagramIcon/>, "text": "Instagram" },
-        { "icons": "Icons", "text": "Tiktok" },
-        { "icons": "Icons", "text": "Threads" },
-        { "icons": <YouTubeIcon/>, "text": "Youtube" },
-        { "icons": "Icons", "text": "discord" },
-        { "icons": <FacebookIcon/>, "text": "facebook" },
-        { "icons": "Icons", "text": "Twitch" },
-        { "icons": "Icons", "text": "Kick" },
-        { "icons": <TelegramIcon/>, "text": "Telegram" },
+        { "icons": <TwitterIcon />, "text": "Twitter", "to": "/twitter" },
+        { "icons": <InstagramIcon />, "text": "Instagram", "to": "/twitter" },
+        { "icons": "Icons", "text": "Tiktok", "to": "/twitter" },
+        { "icons": "Icons", "text": "Threads", "to": "/twitter" },
+        { "icons": <YouTubeIcon />, "text": "Youtube", "to": "/twitter" },
+        { "icons": "Icons", "text": "discord", "to": "/twitter" },
+        { "icons": <FacebookIcon />, "text": "facebook", "to": "/twitter" },
+        { "icons": "Icons", "text": "Twitch", "to": "/twitter" },
+        { "icons": "Icons", "text": "Kick", "to": "/twitter" },
+        { "icons": <TelegramIcon />, "text": "Telegram", "to": "/twitter" },
     ]
-    
+
 
     return (
         <div className='about-sec gray-bg'>
@@ -49,7 +49,7 @@ const Services = () => {
                             <Grid key={index} className='about-text wow fadeInRight' item xs={12} md={6}>
                                 <Item className='shadow-remove remove-bg'>
                                     <div className='more-text subscribe-btn'>
-                                        <Link to="#" className='blue-btn'>{item.icons} {item.text}</Link>
+                                        <Link to={item.to} className='blue-btn'>{item.icons} {item.text}</Link>
                                     </div>
                                 </Item>
                             </Grid>
