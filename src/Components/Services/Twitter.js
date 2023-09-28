@@ -80,16 +80,17 @@ const Twitter = () => {
     );
   };
   return (
-    <div className='about-sec gray-bg'>
+    <div className='about-sec social-page gray-bg'>
       <div className="bound">
         <BorderLinearProgress variant="determinate" value={50} />
-       <ul>
+       <ul className='pro-bar'>
         <li>User details<ReceiptIcon/></li>
         <li>Payment<PaymentIcon/></li>
         <li>Completed  <LocalFireDepartmentIcon /></li>
        </ul>
-        Twitter Services
-        <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+       <div className='social-form'>
+          <h4>Twitter Services</h4>
+          <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
           <Select
             multiple
             displayEmpty
@@ -120,11 +121,11 @@ const Twitter = () => {
             ))}
           </Select>
         </FormControl>
-        Twitter Username
-        <InputLabel htmlFor="outlined-adornment-password">Username</InputLabel>
+        <h4>Twitter Username</h4>
         <OutlinedInput
           id="outlined-adornment-password"
           type='text'
+          placeholder='Username'
           endAdornment={
             <InputAdornment position="end">
               <IconButton aria-label="toggle password visibility" edge="end">
@@ -135,11 +136,11 @@ const Twitter = () => {
           label="Password"
         />
 
-        Followers Quantity
-        <InputLabel htmlFor="outlined-adornment-password">Enter Quantity</InputLabel>
+<h4>Followers Quantity</h4>
         <OutlinedInput
           id="outlined-adornment-password"
           type='text'
+          placeholder='Enter Quantity'
           endAdornment={
             <InputAdornment position="end">
               <IconButton aria-label="toggle password visibility" edge="end">
@@ -149,6 +150,9 @@ const Twitter = () => {
           }
           label="Password"
         />
+        </div>
+        
+        
         <Services />
 
 

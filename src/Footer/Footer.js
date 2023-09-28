@@ -121,7 +121,7 @@ const Footer = () => {
                 <div className="bound">
                     <div className='b-fot'>
                     <p>© 2023 Social Crow is a trading name of Social Freak Ltd - 14659411</p>
-                    <p>All rights reserved.<a href="#">Terms Of Service</a>· <a href="#">Privacy Policy</a>· <a href="/support">Refund and Shipping</a></p>
+                    <p>All rights reserved.<a href="TermsOfService">Terms Of Service</a>· <a href="/PrivacyPolicy">Privacy Policy</a>· <a href="/RefundDelivery">Refund and Shipping</a></p>
                 </div>
                 </div>
             </div>

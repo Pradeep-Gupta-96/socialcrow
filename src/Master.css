@@ -621,7 +621,10 @@
      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
      background: radial-gradient(circle, transparent 20%, rgb(243, 104, 159) 20%, rgb(243, 104, 159) 80%, transparent 80%, transparent) 0% 0% / 50px 50px, radial-gradient(circle, transparent 20%, rgb(243, 104, 159) 20%, rgb(243, 104, 159) 80%, transparent 80%, transparent) 25px 25px / 50px 50px, linear-gradient(rgb(251, 119, 176) 2px, transparent 2px) 0px -1px / 25px 25px, linear-gradient(90deg, rgb(251, 119, 176) 2px, rgb(243, 104, 159) 2px) -1px 0px / 25px 25px;
  }
-
+ .Testimonials_slide__MS7Xr:nth-of-type(odd){
+    background: linear-gradient(135deg, #FFD16855 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #FFD168 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #FFD16855 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #FFD168 25%, #ffc439 25%) 0px 0/ 20px 20px;
+}
+.Testimonials_slide__MS7Xr:nth-child(3n+1) {background: repeating-radial-gradient(circle at 0px 0px, transparent 0px, rgb(245, 123, 51) 35px), repeating-linear-gradient(rgba(235, 115, 47, 0.333), rgb(235, 115, 47)) rgb(245, 123, 51);}
  .justify-between {
      justify-content: space-between;
  }
@@ -1017,3 +1020,42 @@
  .copyright p a {
      color: #000;
  }
+ .inner-pages h1.page-title {
+    font-size: 3rem;
+    line-height: 1;
+    color: #000;
+    font-weight: 800;
+    margin: 0px 0px 30px;
+}
+.inner-pages h2{    font-size: 1.125rem;
+    line-height: 1.75rem;}
+    .inner-pages p {
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+.social-page .bound {max-width: 24rem;}
+ul.pro-bar {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+ul.pro-bar li {list-style: none; font-size: 14px;}
+ul.pro-bar li svg {
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+}
+.social-form > div {
+    width: 100%;
+    margin: 0px;
+}
+.social-form h4 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.social-page .services h2 {
+    font-size: 2rem;
+}
