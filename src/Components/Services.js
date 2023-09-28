@@ -44,6 +44,7 @@ const Services = () => {
                             </div>
                         </Item>
                     </Grid>
+                    
                     {
                         ArrayData.map((item, index) => (
                             <Grid key={index} className='about-text wow fadeInRight' item xs={12} md={6}>
