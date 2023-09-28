@@ -8,6 +8,11 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import {ReactComponent as ReactLogo1} from '../utility/Social Crow _ Social Media Services-14.svg'
+import {ReactComponent as ReactLogo2} from '../utility/Social Crow _ Social Media Services-15.svg'
+import {ReactComponent as ReactLogo3} from '../utility/Social Crow _ Social Media Services-17.svg'
+import {ReactComponent as ReactLogo4} from '../utility/Social Crow _ Social Media Services-19.svg'
+import {ReactComponent as ReactLogo5} from '../utility/Social Crow _ Social Media Services-20.svg'
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -21,15 +26,15 @@ const Services = () => {
 
     const ArrayData = [
         { "icons": <TwitterIcon />, "text": "Twitter", "to": "/twitter" },
-        { "icons": <InstagramIcon />, "text": "Instagram", "to": "/twitter" },
-        { "icons": "Icons", "text": "Tiktok", "to": "/twitter" },
-        { "icons": "Icons", "text": "Threads", "to": "/twitter" },
-        { "icons": <YouTubeIcon />, "text": "Youtube", "to": "/twitter" },
-        { "icons": "Icons", "text": "discord", "to": "/twitter" },
-        { "icons": <FacebookIcon />, "text": "facebook", "to": "/twitter" },
-        { "icons": "Icons", "text": "Twitch", "to": "/twitter" },
-        { "icons": "Icons", "text": "Kick", "to": "/twitter" },
-        { "icons": <TelegramIcon />, "text": "Telegram", "to": "/twitter" },
+        { "icons": <InstagramIcon />, "text": "Instagram", "to": "/Instagram" },
+        { "icons": <ReactLogo1/>, "text": "Tiktok", "to": "/Tiktok" },
+        { "icons": <ReactLogo2/>, "text": "Threads", "to": "/Threads" },
+        { "icons": <YouTubeIcon />, "text": "Youtube", "to": "/Youtube" },
+        { "icons": <ReactLogo3/>, "text": "discord", "to": "/Discord" },
+        { "icons": <FacebookIcon />, "text": "facebook", "to": "/Facebook" },
+        { "icons": <ReactLogo4/>, "text": "Twitch", "to": "/Twitch" },
+        { "icons": <ReactLogo5/>, "text": "Kick", "to": "/Kick" },
+        { "icons": <TelegramIcon />, "text": "Telegram", "to": "/Telegram" },
     ]
 
 

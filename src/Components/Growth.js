@@ -2,10 +2,6 @@ import React from 'react'
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import { Link } from "react-router-dom"
-import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import ElectricBoltTwoToneIcon from '@mui/icons-material/ElectricBoltTwoTone';
 import fbsvg from '../utility/jetha.svg'
 import svg2 from '../utility/svg2.svg'
 

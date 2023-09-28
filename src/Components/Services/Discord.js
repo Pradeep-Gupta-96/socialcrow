@@ -38,21 +38,11 @@ const MenuProps = {
 };
 
 const names = [
-  "Twitter Followers",
-  "Twitter Followers HQ+",
-  "Twitter Followers Ultra",
-  "Twitter Likes + Retweets",
-  "Twitter Likes",
-  "Twitter Likes HQ",
-  "Twitter Retweets",
-  "Twitter Retweets HQ",
-  "High Quality",
-  "Twitter Video Views",
-  "Twitter Tweet Views",
-  "Twitter Followers (NFT Profile Pictures)",
-  "Twitter Retweets (NFT Profile Pictures)",
-  "Twitter Likes (NFT Profile Pictures)",
-  "Twitter Likes + Retweets + @ Mention 3"
+    "Discord Server Members",
+    "Discord Server Members Online 3 Months",
+    "Discord Server Members HO",
+    "High Quality",
+    "Discord Friend Request Spam"
 ];
 
 function getStyles(name, personName, theme) {
@@ -65,7 +55,7 @@ function getStyles(name, personName, theme) {
 }
 
 
-const Twitter = () => {
+const Discord = () => {
   const theme = useTheme();
   const [personName, setPersonName] = React.useState([]);
 
@@ -160,4 +150,4 @@ const Twitter = () => {
   )
 }
 
-export default Twitter
+export default Discord

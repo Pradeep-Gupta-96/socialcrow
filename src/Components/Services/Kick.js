@@ -38,21 +38,7 @@ const MenuProps = {
 };
 
 const names = [
-  "Twitter Followers",
-  "Twitter Followers HQ+",
-  "Twitter Followers Ultra",
-  "Twitter Likes + Retweets",
-  "Twitter Likes",
-  "Twitter Likes HQ",
-  "Twitter Retweets",
-  "Twitter Retweets HQ",
-  "High Quality",
-  "Twitter Video Views",
-  "Twitter Tweet Views",
-  "Twitter Followers (NFT Profile Pictures)",
-  "Twitter Retweets (NFT Profile Pictures)",
-  "Twitter Likes (NFT Profile Pictures)",
-  "Twitter Likes + Retweets + @ Mention 3"
+  "Kiks Followers",
 ];
 
 function getStyles(name, personName, theme) {
@@ -65,7 +51,7 @@ function getStyles(name, personName, theme) {
 }
 
 
-const Twitter = () => {
+const Kick = () => {
   const theme = useTheme();
   const [personName, setPersonName] = React.useState([]);
 
@@ -160,4 +146,4 @@ const Twitter = () => {
   )
 }
 
-export default Twitter
+export default Kick

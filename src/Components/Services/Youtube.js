@@ -65,7 +65,7 @@ function getStyles(name, personName, theme) {
 }
 
 
-const Twitter = () => {
+const Youtube = () => {
   const theme = useTheme();
   const [personName, setPersonName] = React.useState([]);
 
@@ -160,4 +160,4 @@ const Twitter = () => {
   )
 }
 
-export default Twitter
+export default Youtube

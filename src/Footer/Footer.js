@@ -7,6 +7,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
+import { Link } from 'react-router-dom';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -121,7 +122,7 @@ const Footer = () => {
                 <div className="bound">
                     <div className='b-fot'>
                     <p>© 2023 Social Crow is a trading name of Social Freak Ltd - 14659411</p>
-                    <p>All rights reserved.<a href="TermsOfService">Terms Of Service</a>· <a href="/PrivacyPolicy">Privacy Policy</a>· <a href="/RefundDelivery">Refund and Shipping</a></p>
+                    <p>All rights reserved.<Link href="TermsOfService">Terms Of Service</Link>· <Link href="/PrivacyPolicy">Privacy Policy</Link>· <Link href="/RefundDelivery">Refund and Shipping</Link></p>
                 </div>
                 </div>
             </div>
