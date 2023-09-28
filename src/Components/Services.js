@@ -34,27 +34,29 @@ const Services = () => {
 
 
     return (
-        <div className='about-sec gray-bg'>
+        <div className='about-sec services gray-bg'>
             <div className="bound">
                 <Grid className="about" container spacing={2}>
                     <Grid className='about-text wow fadeInRight' item xs={12} >
                         <Item className='shadow-remove remove-bg'>
                             <div className='text-box'>
-                                <h1>Our Services</h1>
+                                <h2>Our Services</h2>
                             </div>
                         </Item>
                     </Grid>
+                    <div className='all-srv'>
+
+                    
                     {
                         ArrayData.map((item, index) => (
-                            <Grid key={index} className='about-text wow fadeInRight' item xs={12} md={6}>
-                                <Item className='shadow-remove remove-bg'>
-                                    <div className='more-text subscribe-btn'>
+                            <div key={index} className='srv-item' item xs={12} md={6}>
+                                <div className='more-text subscribe-btn'>
                                         <Link to={item.to} className='blue-btn'>{item.icons} {item.text}</Link>
                                     </div>
-                                </Item>
-                            </Grid>
+                            </div>
                         ))
                     }
+                    </div>
 
                 </Grid>
             </div>

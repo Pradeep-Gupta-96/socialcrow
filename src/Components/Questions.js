@@ -34,14 +34,15 @@ export default function Questions() {
     ];
 
     return (
-        <div className='about-sec gray-bg'>
+        <div className='about-sec faqs gray-bg'>
             <div className="bound">
 
                 <Grid className="about" container spacing={2}>
                     <Grid className='about-text wow fadeInRight' item xs={12} >
                         <Item className='shadow-remove remove-bg'>
                             <div className='text-box'>
-                                <h1>Frequently Asked Questions</h1>
+                                <h2 className='client-title'>Frequently Asked Questions</h2>
+                                <div className='all-acco'>
                                 {ArrayData.map((item, index) => (
                                     <Accordion key={index}>
                                         <AccordionSummary
@@ -56,6 +57,7 @@ export default function Questions() {
                                         </AccordionDetails>
                                     </Accordion>
                                 ))}
+                                </div>
                             </div>
                         </Item>
                     </Grid>

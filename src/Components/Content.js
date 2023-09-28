@@ -16,18 +16,16 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const Content = () => {
     return (
-        <div className='about-sec gray-bg'>
+        <div className='about-sec join-sec gray-bg'>
             <div className="bound">
                 <Grid className="about" container spacing={2}>
-                    <Grid className='about-text wow fadeInRight' item xs={12} >
-                        <Item className='shadow-remove remove-bg'>
-                            <div className='text-box'>
-                                <h1>Join 60,000+ Successful Clients Today:</h1>
-                                <h3>Start today and grow your social media services, likes, comments, story views, engagement and more.</h3>
-                                <div className='more-text subscribe-btn'><Link to="#" className='blue-btn'>Let's Go! <DoubleArrowIcon /> </Link></div>
-                            </div>
-                        </Item>
-                    </Grid>
+                    <div className='join-our-sec' item xs={12} >
+                        <h2 className='client-title' style={{paddingBottom: "0px"}}>Join 60,000+ Successful Clients Today:</h2>
+                        <div className='text-box'>
+                            <h3>Start today and grow your social media services, likes, comments, story views, engagement and more.</h3>
+                            <div className='more-text subscribe-btn'><Link to="#" className='blue-btn'>Let's Go! <DoubleArrowIcon /> </Link></div>
+                        </div>
+                    </div>
                     <Grid item xs={12} md={6}>
                         <Item className='shadow-remove remove-bg about-img'>
                             <div className='text-box'>

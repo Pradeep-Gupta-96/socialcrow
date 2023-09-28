@@ -22,18 +22,17 @@ const Footer = () => {
             <div className='footer padding-50'>
                 <div className="bound">
                     <Grid className="contact-infos" container spacing={2}>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={3}>
                             <Item className='info-box shadow-remove'>
-                                <h3 className="comman-title mb-30">About</h3>
                                 <div className="f-logo"><img src={footerlogo} alt="banner" /></div>
                                 <div className="fab-content">One of the fastest growing social media follower service providers, Social Crow offers high-quality services as well as first-rate customer service. With Social Crow's assistance, you can boost your organic social media following today! Get started now!</div>
                             </Item>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={6}>
                             <Item className='info-box shadow-remove'>
-                                <div style={{display:"flex"}}>
+                                <div className='f-menu'>
                                     <div>
-                                        <p>About Us</p>
+                                    <h3 className="comman-title mb-30">About Us</h3>
                                         <nav>
                                             <ul>
                                                 <li>
@@ -52,7 +51,7 @@ const Footer = () => {
                                         </nav>
                                     </div>
                                     <div>
-                                        <p>Our Services</p>
+                                    <h3 className="comman-title mb-30">Our Services</h3>
                                         <nav>
                                             <ul>
                                                 <li>
@@ -74,7 +73,7 @@ const Footer = () => {
                                         </nav>
                                     </div>
                                     <div>
-                                        <p>Helpful Links</p>
+                                    <h3 className="comman-title mb-30">Helpful Links</h3>
                                         <nav>
                                             <ul>
                                                 <li>
@@ -103,7 +102,7 @@ const Footer = () => {
                                 </div>
                             </Item>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={3}>
                             <Item className='info-box shadow-remove'>
                                 <h3 className="comman-title mb-30">Contact Info</h3>
                                 <ul className='c-ingo'>
@@ -120,14 +119,10 @@ const Footer = () => {
             </div>
             <div className='copyright'>
                 <div className="bound">
-                    <Grid className="copyright-content" container spacing={2}>
-                        <Grid className='pt-0' item xs={12} md={12}>
-                            <Item className='shadow-remove remove-bg'>
-                                <p>© 2023 Social Crow is a trading name of Social Freak Ltd - 14659411</p>
-                                <p>All rights reserved.Terms Of Service·Privacy Policy·Refund and Shipping</p>
-                            </Item>
-                        </Grid>
-                    </Grid>
+                    <div className='b-fot'>
+                    <p>© 2023 Social Crow is a trading name of Social Freak Ltd - 14659411</p>
+                    <p>All rights reserved.<a href="#">Terms Of Service</a>· <a href="#">Privacy Policy</a>· <a href="/support">Refund and Shipping</a></p>
+                </div>
                 </div>
             </div>
         </>

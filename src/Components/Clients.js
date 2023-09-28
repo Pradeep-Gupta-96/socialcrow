@@ -1,55 +1,561 @@
 import React from 'react'
+import clientimg from '../utility/kevin.webp'
 
 const Clients = () => {
+
     return (
         <>
-            <h2>Our Successful Clients:</h2>
-            <div className="all-card">
-            <div className="Testimonials_slide__MS7Xr" style={{ background: 'repeating-radial-gradient(circle at 0px 0px, transparent 0px, rgb(86, 92, 255) 35px), repeating-linear-gradient(rgba(68, 76, 247, 0.333), rgb(68, 76, 247)) rgb(86, 92, 255)' }}>
-      <div className="font-cera flex h-full w-full flex-col justify-between text-white">
-        <div className="flex w-full justify-between">
-          <div className="flex flex-col justify-items-center">
-            <p>Entrepreneur</p>
-            <p className="text-2xl font-bold">Grant Cardone</p>
-            <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
-          </div>
-          <div className="h-20 w-20">
-            <img
-              alt="client"
-              loading="lazy"
-              width="150"
-              height="150"
-              decoding="async"
-              data-nimg="1"
-              className="rounded-full"
-              style={{ color: 'transparent' }}
-              srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrant.f183f2f4.jpg&amp;w=256&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrant.f183f2f4.jpg&amp;w=384&amp;q=75 2x"
-              src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrant.f183f2f4.jpg&amp;w=384&amp;q=75"
-            />
-          </div>
-        </div>
-        <div className="flex justify-between space-x-2">
-          <div>
-            <p>Client Since</p>
-            <p className="text-2xl">Sep 2022</p>
-          </div>
-          <div className="flex space-x-4">
-            <div>
-              <p>Followers</p>
-              <p className="text-2xl">3M</p>
+            <h2 className='client-title'>Our Successful Clients:</h2>
+            <div className='Testimonials_slider__RZJw5 '>
+                <div className="all-card Testimonials_slide_left__1_bLk">
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-              <p>Growth</p>
-              <p className="du text-2xl">+114k</p>
+            <div className='Testimonials_slider__RZJw5 '>
+                <div className="all-card Testimonials_slide_right___Z_yz">
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Testimonials_slide__MS7Xr card1" >
+                        <div className="font-cera flex h-full w-full flex-col justify-between text-white">
+                            <div className="flex w-full justify-between">
+                                <div className="flex flex-col justify-items-center">
+                                    <p>Entrepreneur</p>
+                                    <p className="text-2xl font-bold">Grant Cardone</p>
+                                    <p className="-mt-1 text-sm opacity-70">@GrantCardone</p>
+                                </div>
+                                <div className="h-20 w-20">
+                                    <img className="rounded-full" width="150" height="150" src={clientimg} alt='' />
+                                </div>
+                            </div>
+                            <div className="flex justify-between space-x-2">
+                                <div>
+                                    <p>Client Since</p>
+                                    <p className="text-2xl">Sep 2022</p>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <div>
+                                        <p>Followers</p>
+                                        <p className="text-2xl">3M</p>
+                                    </div>
+                                    <div>
+                                        <p>Growth</p>
+                                        <p className="du text-2xl">+114k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-            </div>
-            
 
-            <h2>Check out 60,000+ more successful clients that used our services</h2>
+            <h3 className='client-title'>Check out 60,000+ more successful clients that used our services</h3>
         </>
     )
 }
